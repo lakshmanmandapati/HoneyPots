@@ -31,9 +31,9 @@ MALICIOUS_PATTERNS = {
 # Email configuration
 EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server
 EMAIL_PORT = 587  
-EMAIL_USER = 'mlkreddym6@gmail.com'  # Replace with your email
-EMAIL_PASSWORD = 'nhly lhko naux pxaq'  # Replace with your email password
-EMAIL_RECEIVER = 'mlkreddym6@gmail.com'  # Replace with the receiver's email
+EMAIL_USER = 'yourmail@gmail.com'  # Replace with your email
+EMAIL_PASSWORD = 'your password'  # Replace with your email password
+EMAIL_RECEIVER = 'yourmail@gmail.com'  # Replace with the receiver's email
 
 # HTML template for the fake login page
 D_login_html = """
