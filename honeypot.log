@@ -1,0 +1,446 @@
+2025-03-10 22:44:14,616 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-10 22:44:14,617 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 22:44:14,618 INFO:  * Restarting with stat
+2025-03-10 22:44:14,957 WARNING:  * Debugger is active!
+2025-03-10 22:44:14,964 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 22:47:25,362 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 22:47:25,363 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 22:47:25,374 INFO: 127.0.0.1 - - [10/Mar/2025 22:47:25] "GET / HTTP/1.1" 200 -
+2025-03-10 22:47:25,920 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/favicon.ico
+2025-03-10 22:47:25,921 INFO: 127.0.0.1 - - [10/Mar/2025 22:47:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 22:47:42,009 ERROR: 127.0.0.1 - - [10/Mar/2025 22:47:42] code 400, message Bad request version ('-^ªFVN\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-03-10 22:47:42,010 INFO: 127.0.0.1 - - [10/Mar/2025 22:47:42] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03è\x98¸à\x1b\x00[ô_\x08 6Lµ´¬+\x8c\x86\x84ÆÇÅÁÒ\x9cñ,%Å©Ì éðOj\x0c\x95y7éý­\x86\\ÎéÒ\x1bèÞ>Õ·Ø¾â\x1d-^ªFVN\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-03-10 22:47:42,017 ERROR: 127.0.0.1 - - [10/Mar/2025 22:47:42] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03´E\x9a2')
+2025-03-10 22:47:42,017 INFO: 127.0.0.1 - - [10/Mar/2025 22:47:42] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03´E\x9a2[0m" 400 -
+2025-03-10 22:47:42,018 ERROR: 127.0.0.1 - - [10/Mar/2025 22:47:42] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01¤Ú©ÿËùÎéµð\x80oä±SNÕóó©{\x19×«9')
+2025-03-10 22:47:42,018 INFO: 127.0.0.1 - - [10/Mar/2025 22:47:42] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01¤Ú©ÿËùÎéµð\x80oä±SNÕóó©{\x19×«9 ñPyOÈþ\x00\x00\x14À[0m" 400 -
+2025-03-10 22:49:02,555 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-10 22:49:02,555 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 22:49:02,556 INFO:  * Restarting with stat
+2025-03-10 22:49:02,872 WARNING:  * Debugger is active!
+2025-03-10 22:49:02,878 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 22:49:12,148 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 22:49:12,149 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 22:49:12,158 INFO: 127.0.0.1 - - [10/Mar/2025 22:49:12] "GET / HTTP/1.1" 200 -
+2025-03-10 22:49:33,622 ERROR: 127.0.0.1 - - [10/Mar/2025 22:49:33] code 400, message Bad request version ('\x89ºñA/s\x93\x0f×\x8a\x8ea\x00*')
+2025-03-10 22:49:33,623 INFO: 127.0.0.1 - - [10/Mar/2025 22:49:33] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ù:"å Ù\x0eP4U\x1f\x87l«ÉÏ\x14N>÷Êrj\x99\x9b§ïÀ\x84h\x9c« ³\x06tr[\x08e}\x8c¸Qª;²Ùâ\x97wø\x1f\x89ºñA/s\x93\x0f×\x8a\x8ea\x00*[0m" 400 -
+2025-03-10 22:49:33,624 ERROR: 127.0.0.1 - - [10/Mar/2025 22:49:33] code 400, message Bad request version ('C¥Ûe¬·ó03\x81xA\x03ØæÔÐ\x88¾í&S»\x04`\x8f2UÕ-ä\x00,ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-03-10 22:49:33,625 INFO: 127.0.0.1 - - [10/Mar/2025 22:49:33] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x7f0\x1b I\x9c­.XÀMàU\x1aF\x819\x0fÆO\x84Ù\x08\x85+\x99\x8e¦x\x09\x94\x92 \x1cC¥Ûe¬·ó03\x81xA\x03ØæÔÐ\x88¾í&S»\x04`\x8f2UÕ-ä\x00,ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-03-10 22:49:33,626 ERROR: 127.0.0.1 - - [10/Mar/2025 22:49:33] code 400, message Bad request version ('¢\x9fu}ì\x88ÉoÙìéA\x15â³÷\x07;\x00\x00\x14À')
+2025-03-10 22:49:33,626 INFO: 127.0.0.1 - - [10/Mar/2025 22:49:33] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01\x9câ\x8dìîT\x85Ò¯H\x1eø\x07 ¢\x9fu}ì\x88ÉoÙìéA\x15â³÷\x07;\x00\x00\x14À[0m" 400 -
+2025-03-10 22:49:56,764 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 22:49:56,765 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+2025-03-10 22:49:56,775 INFO: 127.0.0.1 - - [10/Mar/2025 22:49:56] "GET / HTTP/1.1" 200 -
+2025-03-10 22:49:57,205 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/favicon.ico
+2025-03-10 22:49:57,206 INFO: 127.0.0.1 - - [10/Mar/2025 22:49:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 22:51:38,708 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-10 22:51:38,708 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 22:51:38,709 INFO:  * Restarting with stat
+2025-03-10 22:51:39,025 WARNING:  * Debugger is active!
+2025-03-10 22:51:39,031 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 22:51:52,824 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/login
+2025-03-10 22:51:52,825 INFO: Login attempt from 127.0.0.1 - Username: ugfiywegf, Password: wudgiwyegf
+2025-03-10 22:51:52,825 INFO: 127.0.0.1 - - [10/Mar/2025 22:51:52] "POST /login HTTP/1.1" 200 -
+2025-03-10 22:52:17,169 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/login
+2025-03-10 22:52:17,170 INFO: Login attempt from 127.0.0.1 - Username: duudgdef, Password: fyef8ehf
+2025-03-10 22:52:17,171 INFO: 127.0.0.1 - - [10/Mar/2025 22:52:17] "POST /login HTTP/1.1" 200 -
+2025-03-10 22:55:09,394 ERROR: 127.0.0.1 - - [10/Mar/2025 22:55:09] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03á²\x98\x82{öñh)\x1609\x98¦ìß!\x12¿\x93'òâ\x11Ó\x80Ï¬Hæ\x96")
+2025-03-10 22:55:09,395 INFO: 127.0.0.1 - - [10/Mar/2025 22:55:09] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03á²\x98\x82{öñh)\x1609\x98¦ìß!\x12¿\x93'òâ\x11Ó\x80Ï¬Hæ\x96\x1c Ðß¶ë\x84~<?}ÀÙ\x8auyÑr\x90£ëqëÅô«ÊéTu,öì[\x00*::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-03-10 22:55:09,401 ERROR: 127.0.0.1 - - [10/Mar/2025 22:55:09] code 400, message Bad request version ("IÂ;«\x11ÛsÜ';gi}w\x00,\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+2025-03-10 22:55:09,401 INFO: 127.0.0.1 - - [10/Mar/2025 22:55:09] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ç®û\x0bÃTô5^c!k\x00Oâã^1.\x0f\x0468¼\x9b\x05ß\x98\x02È\x0bê \x0dÅ¡l§\x02\x038[éäÊZ£mA\x93 IÂ;«\x11ÛsÜ';gi}w\x00,\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-03-10 22:55:09,403 ERROR: 127.0.0.1 - - [10/Mar/2025 22:55:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01\x97°')
+2025-03-10 22:55:09,403 INFO: 127.0.0.1 - - [10/Mar/2025 22:55:09] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01\x97°\x1e'ô\x98×ÿ¸§Ç\x18XNË"ß\x8a¤OH­ÎÂ\x8fV½~¬e+ì\x00\x00\x14À[0m" 400 -
+2025-03-10 22:58:51,336 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 22:58:51,336 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 22:58:51,352 INFO: 127.0.0.1 - - [10/Mar/2025 22:58:51] "GET / HTTP/1.1" 200 -
+2025-03-10 23:02:45,715 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-10 23:02:45,715 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 23:02:45,716 INFO:  * Restarting with stat
+2025-03-10 23:02:46,032 WARNING:  * Debugger is active!
+2025-03-10 23:02:46,038 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 23:08:19,117 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-10 23:08:19,118 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 23:08:19,118 INFO:  * Restarting with stat
+2025-03-10 23:08:19,449 WARNING:  * Debugger is active!
+2025-03-10 23:08:19,457 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 23:09:34,796 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 23:09:34,798 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:09:34,807 INFO: 127.0.0.1 - - [10/Mar/2025 23:09:34] "GET / HTTP/1.1" 200 -
+2025-03-10 23:19:01,376 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-10 23:19:01,377 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 23:19:01,377 INFO:  * Restarting with stat
+2025-03-10 23:19:01,698 WARNING:  * Debugger is active!
+2025-03-10 23:19:01,723 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 23:24:06,652 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/login
+2025-03-10 23:24:06,653 INFO: Login attempt from 127.0.0.1 - Username: Nellur Niraja, Password: Gunta
+2025-03-10 23:24:06,654 INFO: 127.0.0.1 - - [10/Mar/2025 23:24:06] "POST /login HTTP/1.1" 200 -
+2025-03-10 23:25:22,016 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 23:25:22,017 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+2025-03-10 23:25:22,026 INFO: 127.0.0.1 - - [10/Mar/2025 23:25:22] "GET / HTTP/1.1" 200 -
+2025-03-10 23:25:22,430 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 23:25:22,430 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+2025-03-10 23:25:22,431 INFO: 127.0.0.1 - - [10/Mar/2025 23:25:22] "GET / HTTP/1.1" 200 -
+2025-03-10 23:27:36,847 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/login
+2025-03-10 23:27:36,847 INFO: Login attempt from 127.0.0.1 - Username: http://192.168.1.2:5000/?q=%3Cscript%3Ealert(%27XSS%27)%3C/script%3E, Password: 123
+2025-03-10 23:27:36,848 INFO: 127.0.0.1 - - [10/Mar/2025 23:27:36] "POST /login HTTP/1.1" 200 -
+2025-03-10 23:28:00,277 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-10 23:28:00,277 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 23:28:00,278 INFO:  * Restarting with stat
+2025-03-10 23:28:00,593 WARNING:  * Debugger is active!
+2025-03-10 23:28:00,599 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 23:28:20,338 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 23:28:20,339 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:28:20,350 INFO: 127.0.0.1 - - [10/Mar/2025 23:28:20] "GET / HTTP/1.1" 200 -
+2025-03-10 23:29:00,289 ERROR: 127.0.0.1 - - [10/Mar/2025 23:29:00] code 400, message Bad request version ('\x02«)\x8f)z=·}8\x10ÄQ\x9c<Ç©¾\x0fB\x8e')
+2025-03-10 23:29:00,290 INFO: 127.0.0.1 - - [10/Mar/2025 23:29:00] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x034Ó\x8aýòæ\x14õ ?¶LüòS\x91¦\x8aVÒ¿\x9cÈ\x92\x09\x18\x8eÐëD\x16, ^\x0fë\x02¿\x86\x88\x9cÞ\x89wx>\x82DÝ©\x0dú×cm\x84(\x91BÈ·\x96ûþî\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x9a\x9a\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00#\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x003\x04ï\x04íÚÚ\x00\x01\x00\x11ì\x04Àl\x00°$\x93V2\x0b^\x8eêc\x0cz\x97\x08\x99\x1fz\x05µ\x96û`rCÂACoFÀ+ÆàÁMaA@\x14°$Õ\x176¤§\x12ðÅ.¹6Zù\x88ËdÏ[ù0\x01\x90\x8ec\x1a\x10N\x94«g¨ÆÖÀ57\x01e\x88D\x08Ä£G\x930ZxéL­\x89´½dEr \x83NRÏ8õ\x81ÉÉ\x07æY\x7fIWPÙÈÍ\x0d´\x95~\x80\x91\x83ºsÇ\x04%)\x0cYè\x12d\x13s£UL\x1fPÄ¤d\x85¿\x99XVigv8[?TQGÖz¬}\x86 \x02«)\x8f)z=·}8\x10ÄQ\x9c<Ç©¾\x0fB\x8e[0m" 400 -
+2025-03-10 23:29:00,293 ERROR: 127.0.0.1 - - [10/Mar/2025 23:29:00] code 400, message Bad request version ('ÙáYì,ï')
+2025-03-10 23:29:00,295 INFO: 127.0.0.1 - - [10/Mar/2025 23:29:00] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x036\x1axÕ\\Ø^ü\x84\x04\x144¬üQì\x87\x11ÝZi?KºàÒØä\x8fíB# \x9e~®íÄÆiÍ5Hùð\x8aÎ\x0e\x7fÅéB\x80OÐ\x0dÙáYì,ï[0m" 400 -
+2025-03-10 23:29:00,296 ERROR: 127.0.0.1 - - [10/Mar/2025 23:29:00] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2025-03-10 23:29:00,297 INFO: 127.0.0.1 - - [10/Mar/2025 23:29:00] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Y\x01¼º9i/fÎ÷\x116\x8b©\x90ªäÇpóJä\x14\x9bvs@l\x13þ.= ÅßUS\x8c\x1fs\x0eÅ£µ\x1213\x17&\x86&;\x08\x83j\x97ò*7\x1a?aà\x1d\x0f\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00-\x00\x02\x01\x01\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2025-03-10 23:29:00,302 ERROR: 127.0.0.1 - - [10/Mar/2025 23:29:00] code 400, message Bad request version ('\x9cÉô\x0f¬Ô&£«g')
+2025-03-10 23:29:00,302 INFO: 127.0.0.1 - - [10/Mar/2025 23:29:00] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03½wØæ<Ú%Ã_J( \x92fØo=Z÷q5ó\x8d\x0bñ\x91´mÃÒýª F:J@\x96(\x83\x9cÕþáò\x15NÕ\x93\x1ahþÒXµ5PZ¼ÒÞ£faI\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93**\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04ízz\x00\x01\x00\x11ì\x04À¿z9Oõ²×Õ$ut¸³\x06\x0f\x8cE}]êÄ\x85ò\x8a¬ \x92Ö\x85\x8dxËJ\x0dE©®6.;\x99-U&\x0b\x07¸[À¸E\x111/\x99¦GâÜ!\x1cÌÅ·T\x1f2\x82¡<G§\x1cÉ\x80l\x07±\x16\x80\x93sEA²Â;FØ¼èâ­2\x86ºc\x97¦E\x81\x93£\x90(¸Ü\x04ì\x85\x9cÉô\x0f¬Ô&£«g[0m" 400 -
+2025-03-10 23:30:02,147 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:02] code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00')
+2025-03-10 23:30:02,148 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:02] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03å\x0e \x02³\x0bÒ\x18u\x02Ä\x0d\x16\x0f®=ÌëÄæ^uòs[\x1e\x86ï\x99?bM \x04\x8fÁL\x1dX<BTj\x03e ONËLí4Óßìº(¤\x18s1bpS,\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00[0m" 400 -
+2025-03-10 23:30:02,148 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+2025-03-10 23:30:02,149 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:02] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03%F/]Ðæ[0m" 400 -
+2025-03-10 23:30:02,150 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:02] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2025-03-10 23:30:02,150 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:02] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03+WÂÍr£Ë¾Z\x9b¡\x8býF\x95¿ÉwUh\x837ó\x06É|\x19\x0beEvì ÏD?\x049Z%:ßF7IñI¢£\x99\x9d\x09\x8bwhÍ3\x99\x89,Ã\x89\x90@T\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x8a\x8a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2025-03-10 23:30:02,150 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:02] code 400, message Bad request version ('8\x82\x12\x07ýt\x83þà¸ÕðÎÜú·,1¦5Új\x1b\x06?©0¶?Ñ¤Ï1')
+2025-03-10 23:30:02,151 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:02] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ùÊm·¨\x05·Lº\x0f\x96\x82yÒ¸\x8f\x93\x11\x13»\x8bÚÔ«Ö\x08y?\x03_h¡ ²pÎ¨,\x08¼0GühÃï¢V\x9d1\x0fS'\x83QWæ\x08\x02¤Î »Ä\x86\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00\x003\x04ï\x04ízz\x00\x01\x00\x11ì\x04Àº\x00\x89þR\x8e±ç\x19­ê¸²ÚÈ9j}f\x18\x12v²Á\x9då?þG¼úâ¯úæ\x87\x0cÁ}Ù·\x18X\x92uõ\x15±\x92¶\x08\x10õ`\x07Ð\x19uJg\x8eË\x84ËÄ®ãµÊ½ÈSzµ`©\x132¡TZ\x88¬=\x10À6h\x1c\x96»Ì\x98\x1bàk;\x85 \x80<vH\x91isº\x9e\x82T\x89_xÇpÊ%Í<\x83õ\x99Ê\x19©\x92ýL\x09\x9eÄ»¢\x12]\x8fQW\x99·\x95«²¾ÓG°Ò\x04*\x8d\x19,°ô\x8f\x9b÷\x98¸\x0c8\x82\x12\x07ýt\x83þà¸ÕðÎÜú·,1¦5Új\x1b\x06?©0¶?Ñ¤Ï1[0m" 400 -
+2025-03-10 23:30:03,471 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:03] code 400, message Bad request version ('?~\x9f$qFxÖ³Äp\x11fØk2\x83\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00')
+2025-03-10 23:30:03,471 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:03] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ù£(Ã£uðhÿ\x98A\x15v\x82ãÞP\x9e\x91ÕâÆä«Ksß\x8c\x80ý¶\x8c Ú\x9cÂÅ\x1f\x99\\µg^Â|\x8d\x9fWá\\\x80ß`(üb§"HZß\x0b¤\x84÷\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00\x00\x12\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00-\x00\x02\x01\x01DÍ\x00\x05\x00\x03\x02h2þ\x0d\x00ú\x00\x00\x01\x00\x01g\x00 \x06º­\x0bî\x04\x9c.A;\x10ýõÖÄ\x18ÈÆ\x0b0©=(ýVãSË\x05)¹7\x00ÐbÐ\x99\x0bö\x07]\\NSk¢É07¯\x05474ð?ÒÀÕ\x1fµ¦Za\x80\x99uF ^{\x1fº\x92\x1fÞ~¹¡3Xùãî)rw\x822+&\x1c%!\x16¸aú\x0cQ­åð±çÒ\x8bÖhL¼¾'ÆféZ\x1a\x1cã\x0c°3\x18\x92üöý\x08Ú\x9df¯my"©+ýðÝ6ñC»£\x07\x19?s+\x8bäjEý\x88\x85\x01\x8f­ª\x0dÿ-ß¥2ÏÂ\x99>ô(\x98Ï¸\x97k±0¶ÒLÖ5Ú»ìÖ\x8f§ [vú3Xª¾°Ý9²m\x06ªF9=Vò®Îrang%å½\x10u\x07\x1c?~\x9f$qFxÖ³Äp\x11fØk2\x83\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00[0m" 400 -
+2025-03-10 23:30:03,472 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:03] code 400, message Bad request version ('µ~f[ér%#\x8c\x10VL©V\x12\x17\x9bq')
+2025-03-10 23:30:03,473 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:03] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03}\x04õ\x9e\x04é\x92\x0f|\x07Óq\x13\x07\x1a\x1aîd¥âðê\x0cKuù\x9d5¸1AÄ Ó\x17`\x97Úô\x8f \x88\x92Zùä¥\x0d\x1fÊøiòÞÈn¸\x83ÊqE\x87\x83¹e\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sºº\x00\x00\x00\x12\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x17\x00\x00ÿ\x01\x00\x01\x00þ\x0d\x00ú\x00\x00\x01\x00\x01\x1d\x00 Úzx\x03­9ScoDsú\x1f&úÒ¬\x02¡\x8eQ÷L¬HFpn_ë,P\x00ÐÂ\x81×\x08Nf°¼\x0d)ç¡]Þ½u±¦\x8fgà\\ÅÙ¼\x07sÚuS{\x913x\x99\x16¿ÑköSGa]S¸ \x85wÛ\x0bs\x09[¯Áú\x18I\x8c¥\x9e\x86`'Ã*y\x966k =£vñ)QrÆA§0¯\x0b¤\x8c­#C*&\x90\x90OÝÇjaaÍ\x8eì.Õz'\x8c\x90\x8c\x15°Ìvà\x14ãîì\x820¼Òââûtñ\x12Gø·xb\x00u_Uxý¢À¦t\x1a<ÆLJÀKþÁM\x0bûêÕ\x99Çu\x1a\x8c9­Ms\x03S´ØÏlq\x0e\x809é\x80ølÀeØ×\x09Û^ê\x09Î,\x8f\x85\x13GÁß!¾[¶di¾Þ*\x93\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x003\x04ï\x04ízz\x00\x01\x00\x11ì\x04À\x1c,'\x0f\x96©ÎâÌ\x8cöyÆ´\x0c\x08\x9c>Öa#«`\x9c­KX§P\x9f¼\x92u=g\x12Í¨#ì\x98ZwIÎZd#\x8b(s_c\x1e}¬nW\x95¥àÛDz(\x11a\x02\x88¨\x09\x05Íõ1ÿs4~|\x9a\x81Õ·\x0bâN) µ~f[ér%#\x8c\x10VL©V\x12\x17\x9bq[0m" 400 -
+2025-03-10 23:30:03,473 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:03] code 400, message Bad request version ('\x9bg\x00')
+2025-03-10 23:30:03,473 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:03] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03¾[W=µ\x1bÖ´ó}H\x87ý¹W5ÞÂídHV\x1b·\x8dO,^D"\x0fl mx\x8d\x1extåÃÎëµ\x93NK$Ì!*ÚYä\x80\x89\x12ôû\x99ýX\x93^©\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x1a\x1a\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01\x8b\x00 ü\x17­\x8fäG0ÇÏÓ\x80\x121\x1eN±åÂ\x8cË_;\x97 Kp)\x80\x0bC97\x00\x90\x89ÉÄ!(Y)Ýª\x9a\x85Ö.b ­ÂIÏ\x02ùÓ\x95þ,?à;ÞF\x9fØòÂùe¡<-\x05\x1dP\x17¶\\VÃ\x92·\x98[þxí\x88¸.½S\x0dØÜJ\x1b\x0b Óx\x96òýçêÒ\x19Öï\x8a[\x97«jÀBOû»¡¦A­z\x87îP¤"¬¿;\x0b5x¯í\x80`\x82]ìEwå>/µ\x0eßçÚÆ¹\x88wçk´á/Ê¨?\x06\x97@\x04\x88ÙÇ±â\x0d\x9bg\x00[0m" 400 -
+2025-03-10 23:30:03,474 ERROR: 127.0.0.1 - - [10/Mar/2025 23:30:03] code 400, message Bad request version ('\x00V\x884\x15')
+2025-03-10 23:30:03,475 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:03] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03(\x01\x15-S'ã+ç{Ò39±¢kâÁÃ\x82K§K\x92\x8e¥-u§ØL] PÚ\x08a\x9f±2"5\x04\x98\x06\x9bzåc¥ËZ\x11|"P·\x83\x14àAvÚ{}\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S**\x00\x00\x00\x17\x00\x00\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04À$ø\x90Y6\x93³*:gôI\\«X\x8eñ AÕrc¤0!g:Iü\x9d ÷=X\x90\x8c\x18\x1a¤§Uµ\x10¬¸®¢\x8fFF/\x06\x8b\x9cÿ\x0b\x84ð\x87]EªÃÁ\x15\x02óS1³\x11\x19ÉÇ\x02èW\x8c;¤F\x15\x82yMBH\x9f \x11Å,\x1eI×\x06á:\x01K&§È\x90\x81êÛ\\jkW\x11âF5t\x00(&K\x0cxh$z\x02\x7fü¡\x0b¬\x8eÏ\x99\x10¾¢KôK\x98:#y\x08\x95dSà«\x8c\x8a\x98'\x9a©\x16jAÕe\x08{\x94\x12÷ã\x08\x0cåJk\x16e\x81Ó:ÇñºÝV]$£¼×¢¿bY\x8at76\x82\x18\x01X#\x1d÷C\x03b\x9b5\x1f\x90¥\x04)\x02\x11\x8c_À¡\x0bº\x17^gê\x1cÝ4©\x07ã¹_xª¦´¼\x18\x1bT ©"øS#T\x952<ò\x7fu§Ëý1\x8eð\x87É,ð\x8f\x85Pz³D\x83f¡G¬\x81\x84Ïx7Yú>²\x8bF\x8cÄ¦$1\x8e£$\x8d×Ðzql\x7f\x8bf²Ol\x9f\x85\x91º¸(¨\x1c+G{\x03,\x0eçÉ\x06ú\x8eg8\x1dP\x92r\x99\x90\x88ðaC~+\x05\x01acWà+X\x14\x87kjr\x19ôF\x95é\x09÷%´\x9f8N¤ñ>D@Z-G\x9fª\x1b¤\x1f\x90\x9a×2 Ò7²î\x12\x9bIáX÷u ý»Y\x16ç96ÄÈeÙ\x8b,â\x94î\x02mùö\x15©y/\x11\x80-æ\x0b\x0cëx'°'\x81\x9d`\x82Üó\x115Çv§\x02<¯çÃ~W_Ã±\x03@:\x187:@\x93ëi\x08"`òw0Ëä\x85\x00V\x884\x15[0m" 400 -
+2025-03-10 23:30:17,959 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 23:30:17,959 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:30:17,961 INFO: 127.0.0.1 - - [10/Mar/2025 23:30:17] "GET / HTTP/1.1" 200 -
+2025-03-10 23:31:42,928 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/?code=eval('alert("Hacked")')
+2025-03-10 23:31:42,930 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: Eval Function Usage Attempt, Parameter: code=eval('alert("Hacked")')
+2025-03-10 23:31:42,930 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:31:42,934 INFO: 127.0.0.1 - - [10/Mar/2025 23:31:42] "GET /?code=eval('alert("Hacked")') HTTP/1.1" 200 -
+2025-03-10 23:31:54,708 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/?code=eval('alert("Hacked")')
+2025-03-10 23:31:54,708 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: Eval Function Usage Attempt, Parameter: code=eval('alert("Hacked")')
+2025-03-10 23:31:54,709 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:31:54,710 INFO: 127.0.0.1 - - [10/Mar/2025 23:31:54] "GET /?code=eval('alert("Hacked")') HTTP/1.1" 200 -
+2025-03-10 23:32:27,153 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/?code=eval(
+2025-03-10 23:32:27,153 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: Eval Function Usage Attempt, Parameter: code=eval(
+2025-03-10 23:32:27,153 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:32:27,154 INFO: 127.0.0.1 - - [10/Mar/2025 23:32:27] "GET /?code=eval( HTTP/1.1" 200 -
+2025-03-10 23:34:15,766 INFO: Login attempt from 127.0.0.1 - Username: admin, Password: admin123
+2025-03-10 23:34:15,767 INFO: 127.0.0.1 - - [10/Mar/2025 23:34:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 23:34:57,953 INFO: Login attempt from 127.0.0.1 - Username: admin, Password: admin123
+2025-03-10 23:34:57,955 INFO: 127.0.0.1 - - [10/Mar/2025 23:34:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 23:37:54,119 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-10 23:37:54,120 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 23:37:54,121 INFO:  * Restarting with stat
+2025-03-10 23:37:54,431 WARNING:  * Debugger is active!
+2025-03-10 23:37:54,437 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 23:40:06,197 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-10 23:40:06,198 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:40:06,210 INFO: 127.0.0.1 - - [10/Mar/2025 23:40:06] "GET / HTTP/1.1" 200 -
+2025-03-10 23:40:59,470 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/?redirect=http://malicious-site.com
+2025-03-10 23:40:59,472 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, Parameter: redirect=http://malicious-site.com
+2025-03-10 23:40:59,473 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:40:59,480 INFO: 127.0.0.1 - - [10/Mar/2025 23:40:59] "GET /?redirect=http://malicious-site.com HTTP/1.1" 200 -
+2025-03-10 23:46:31,686 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-10 23:46:31,689 INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 23:46:31,689 INFO:  * Restarting with stat
+2025-03-10 23:46:32,007 WARNING:  * Debugger is active!
+2025-03-10 23:46:32,013 INFO:  * Debugger PIN: 756-002-320
+2025-03-10 23:46:40,368 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:46:40,368 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:46:40,371 INFO: 192.168.0.148 - - [10/Mar/2025 23:46:40] "GET / HTTP/1.1" 200 -
+2025-03-10 23:46:40,720 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/favicon.ico
+2025-03-10 23:46:40,721 INFO: 192.168.0.148 - - [10/Mar/2025 23:46:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 23:46:56,416 ERROR: 192.168.0.148 - - [10/Mar/2025 23:46:56] code 400, message Bad request version ('\x81ÃÿW\x94L\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-03-10 23:46:56,417 INFO: 192.168.0.148 - - [10/Mar/2025 23:46:56] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03â-Ð\x07q¶ö":`Ke?\x1eA,`\x92ïÒ¶éÉLIæ~\x9eõÔ\\G Ä\x1bâ9\x1c\x0cz\x80ëAÆ³éöü\x1b¨\x9fÂ*\x8e\x16\x1c0<\x1c\x81ÃÿW\x94L\x00*êê\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-03-10 23:46:56,429 ERROR: 192.168.0.148 - - [10/Mar/2025 23:46:56] code 400, message Bad request version ('\x03aÏDBO*[:m£2\x00,JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-03-10 23:46:56,430 INFO: 192.168.0.148 - - [10/Mar/2025 23:46:56] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x02>ºé\x03à9V×y´\x12=-¬N¾3²âm\x8csoËÍùÎ6²3¯ GºÑò?øHÊ5Ã;ÜNØ\x91ÁÆ\x05¹ \x03aÏDBO*[:m£2\x00,JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-03-10 23:46:56,433 ERROR: 192.168.0.148 - - [10/Mar/2025 23:46:56] code 400, message Bad request version ('¬Kª7³Q\x866TÆ\x00ÆlÂ\x86\x97PF\x00\x00\x14À')
+2025-03-10 23:46:56,433 INFO: 192.168.0.148 - - [10/Mar/2025 23:46:56] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01\x80Í×\x9b!\x9dÓ-r\x0b\x99aù ¬Kª7³Q\x866TÆ\x00ÆlÂ\x86\x97PF\x00\x00\x14À[0m" 400 -
+2025-03-10 23:48:22,117 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:48:22,117 INFO: Connection from 192.168.0.127 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:48:22,120 INFO: 192.168.0.127 - - [10/Mar/2025 23:48:22] "GET / HTTP/1.1" 200 -
+2025-03-10 23:48:23,041 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/favicon.ico
+2025-03-10 23:48:23,042 INFO: 192.168.0.127 - - [10/Mar/2025 23:48:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 23:48:41,392 ERROR: 192.168.0.148 - - [10/Mar/2025 23:48:41] code 400, message Bad request version ('ÆÈ\\\x19\x0e\x00*')
+2025-03-10 23:48:41,392 INFO: 192.168.0.148 - - [10/Mar/2025 23:48:41] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03p\x06eÀ\x9fã\x82s\x94\x1d'Y\x98S\x90\x91;­\x19ýîjU U\x1c`E\x0b6§X §x7\x8c«R\x17Ñ'z,§&ºË¯ ½\x97\x836Þ\x9fàÑ\x15 ÆÈ\\\x19\x0e\x00*[0m" 400 -
+2025-03-10 23:48:41,396 ERROR: 192.168.0.148 - - [10/Mar/2025 23:48:41] code 400, message Bad request version ('ìÖ!\x0e\x0eL!qýéä\x9fNîÏQ\x93mª5GS\x0eï\x10LÐéäôK\x00,úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-03-10 23:48:41,396 INFO: 192.168.0.148 - - [10/Mar/2025 23:48:41] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x02\x1e\x89?_`\x80\x0f\x81\x96\x86³'\x86¤Øõ¡Þôn~®)\x11\x83_\x05F~ñE \x1cìÖ!\x0e\x0eL!qýéä\x9fNîÏQ\x93mª5GS\x0eï\x10LÐéäôK\x00,úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-03-10 23:48:41,401 ERROR: 192.168.0.148 - - [10/Mar/2025 23:48:41] code 400, message Bad request syntax ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01y.j\x8e-\\TÈ>ßüIÌñ\xadÍoÔ=÷3Ñtûª\x92\x9bÆ.g©}\x00\x00\x14À')
+2025-03-10 23:48:41,401 INFO: 192.168.0.148 - - [10/Mar/2025 23:48:41] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01y.j\x8e-\\TÈ>ßüIÌñ­ÍoÔ=÷3Ñtûª\x92\x9bÆ.g©}\x00\x00\x14À[0m" 400 -
+2025-03-10 23:49:16,414 WARNING: Malicious activity detected from 192.168.0.147 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:49:16,415 INFO: Connection from 192.168.0.147 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36
+2025-03-10 23:49:16,417 INFO: 192.168.0.147 - - [10/Mar/2025 23:49:16] "GET / HTTP/1.1" 200 -
+2025-03-10 23:49:17,109 WARNING: Malicious activity detected from 192.168.0.147 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/favicon.ico
+2025-03-10 23:49:17,109 INFO: 192.168.0.147 - - [10/Mar/2025 23:49:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 23:49:34,571 WARNING: Malicious activity detected from 192.168.0.192 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:49:34,572 INFO: Connection from 192.168.0.192 - Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/358.1.731895952 Mobile/15E148 Safari/604.1
+2025-03-10 23:49:34,575 INFO: 192.168.0.192 - - [10/Mar/2025 23:49:34] "GET / HTTP/1.1" 200 -
+2025-03-10 23:49:51,959 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/login
+2025-03-10 23:49:51,960 INFO: Login attempt from 192.168.0.127 - Username: ihdfuhd, Password: ugheygoes
+2025-03-10 23:49:51,960 INFO: 192.168.0.127 - - [10/Mar/2025 23:49:51] "POST /login HTTP/1.1" 200 -
+2025-03-10 23:50:16,522 WARNING: Malicious activity detected from 192.168.0.192 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:50:16,524 INFO: Connection from 192.168.0.192 - Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/358.1.731895952 Mobile/15E148 Safari/604.1
+2025-03-10 23:50:16,527 INFO: 192.168.0.192 - - [10/Mar/2025 23:50:16] "GET / HTTP/1.1" 200 -
+2025-03-10 23:52:28,632 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/?code=eval('alert("Hacked")')
+2025-03-10 23:52:28,633 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: Eval Function Usage Attempt, Parameter: code=eval('alert("Hacked")')
+2025-03-10 23:52:28,634 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:52:28,639 INFO: 192.168.0.148 - - [10/Mar/2025 23:52:28] "GET /?code=eval('alert("Hacked")') HTTP/1.1" 200 -
+2025-03-10 23:54:02,843 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:54:02,844 INFO: Connection from 192.168.0.127 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:54:02,847 INFO: 192.168.0.127 - - [10/Mar/2025 23:54:02] "GET / HTTP/1.1" 200 -
+2025-03-10 23:54:09,589 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/login
+2025-03-10 23:54:09,590 INFO: 192.168.0.127 - - [10/Mar/2025 23:54:09] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-03-10 23:55:06,882 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/?user=admin';--
+2025-03-10 23:55:06,884 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: SQL Comment Attempt, Parameter: user=admin';--
+2025-03-10 23:55:06,884 INFO: Connection from 192.168.0.127 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:55:06,886 INFO: 192.168.0.127 - - [10/Mar/2025 23:55:06] "GET /?user=admin';-- HTTP/1.1" 200 -
+2025-03-10 23:57:29,688 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/login
+2025-03-10 23:57:29,689 INFO: Login attempt from 192.168.0.127 - Username: _lokesh.notfound_, Password: 111111
+2025-03-10 23:57:29,689 INFO: 192.168.0.127 - - [10/Mar/2025 23:57:29] "POST /login HTTP/1.1" 200 -
+2025-03-10 23:57:54,869 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:57:54,869 INFO: Connection from 192.168.0.127 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:57:54,876 INFO: 192.168.0.127 - - [10/Mar/2025 23:57:54] "GET / HTTP/1.1" 200 -
+2025-03-10 23:58:05,417 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/login
+2025-03-10 23:58:05,417 INFO: Login attempt from 192.168.0.127 - Username: _lokesh.notfound_, Password: 4444444
+2025-03-10 23:58:05,418 INFO: 192.168.0.127 - - [10/Mar/2025 23:58:05] "POST /login HTTP/1.1" 200 -
+2025-03-10 23:59:03,341 WARNING: Malicious activity detected from 192.168.0.127 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-10 23:59:03,342 INFO: Connection from 192.168.0.127 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-10 23:59:03,344 INFO: 192.168.0.127 - - [10/Mar/2025 23:59:03] "GET / HTTP/1.1" 200 -
+2025-03-11 00:03:19,381 WARNING:  * Debugger is active!
+2025-03-11 00:03:19,385 INFO:  * Debugger PIN: 756-002-320
+2025-03-11 00:03:19,662 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-11 00:03:19,663 INFO: [33mPress CTRL+C to quit[0m
+2025-03-11 00:03:19,663 INFO:  * Restarting with stat
+2025-03-11 00:07:36,171 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.ko;'p[o148:5001
+2025-03-11 00:07:36,173 INFO: [33mPress CTRL+C to quit[0m
+2025-03-11 00:07:36,175 INFO:  * Restarting with stat
+2025-03-11 00:07:36,508 WARNING:  * Debugger is active!
+2025-03-11 00:07:36,516 INFO:  * Debugger PIN: 756-002-320
+2025-03-11 00:07:41,887 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: XSS Attempt, URL: http://127.0.0.1:5001/vulnerable?input=<script>alert(1)</script>
+2025-03-11 00:07:41,887 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: XSS Attempt, Parameter: input=<script>alert(1)</script>
+2025-03-11 00:07:41,888 INFO: 127.0.0.1 - - [11/Mar/2025 00:07:41] "[33mGET /vulnerable?input=<script>alert(1)</script> HTTP/1.1[0m" 404 -
+2025-03-11 00:07:43,313 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: XSS Attempt, URL: http://127.0.0.1:5001/vulnerable?input=<script>alert(1)</script>
+2025-03-11 00:07:43,314 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: XSS Attempt, Parameter: input=<script>alert(1)</script>
+2025-03-11 00:07:43,314 INFO: 127.0.0.1 - - [11/Mar/2025 00:07:43] "[33mGET /vulnerable?input=<script>alert(1)</script> HTTP/1.1[0m" 404 -
+2025-03-11 00:08:03,269 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/vulnerable?input=
+2025-03-11 00:08:03,270 INFO: 127.0.0.1 - - [11/Mar/2025 00:08:03] "[33mGET /vulnerable?input= HTTP/1.1[0m" 404 -
+2025-03-11 00:08:23,765 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-11 00:08:23,765 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:08:23,772 INFO: 192.168.0.148 - - [11/Mar/2025 00:08:23] "GET / HTTP/1.1" 200 -
+2025-03-11 00:13:37,898 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-11 00:13:37,898 INFO: [33mPress CTRL+C to quit[0m
+2025-03-11 00:13:37,899 INFO:  * Restarting with stat
+2025-03-11 00:13:38,228 WARNING:  * Debugger is active!
+2025-03-11 00:13:38,235 INFO:  * Debugger PIN: 756-002-320
+2025-03-11 00:13:52,085 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-11 00:13:52,086 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:13:52,091 INFO: 192.168.0.148 - - [11/Mar/2025 00:13:52] "GET / HTTP/1.1" 200 -
+2025-03-11 00:14:28,703 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, URL: http://192.168.0.148:5001/?q=<script>alert('XSS')</script>
+2025-03-11 00:14:28,703 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, Parameter: q=<script>alert('XSS')</script>
+2025-03-11 00:14:28,703 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:14:28,706 INFO: 192.168.0.148 - - [11/Mar/2025 00:14:28] "GET /?q=<script>alert('XSS')</script> HTTP/1.1" 200 -
+2025-03-11 00:15:12,374 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: SQL Injection Attempt, URL: http://192.168.0.148:5001/?id=1%20union%20select%20*%20from%20users
+2025-03-11 00:15:12,374 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: SQL Injection Attempt, Parameter: id=1 union select * from users
+2025-03-11 00:15:12,374 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:15:12,377 INFO: 192.168.0.148 - - [11/Mar/2025 00:15:12] "GET /?id=1%20union%20select%20*%20from%20users HTTP/1.1" 200 -
+2025-03-11 00:15:36,286 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/http://192.168.1.2:5000/?redirect=http://malicious-site.com
+2025-03-11 00:15:36,286 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, Parameter: redirect=http://malicious-site.com
+2025-03-11 00:15:36,287 INFO: 192.168.0.148 - - [11/Mar/2025 00:15:36] "[33mGET /http://192.168.1.2:5000/?redirect=http://malicious-site.com HTTP/1.1[0m" 404 -
+2025-03-11 00:15:48,729 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/?redirect=http://malicious-site.com
+2025-03-11 00:15:48,730 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, Parameter: redirect=http://malicious-site.com
+2025-03-11 00:15:48,730 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:15:48,732 INFO: 192.168.0.148 - - [11/Mar/2025 00:15:48] "GET /?redirect=http://malicious-site.com HTTP/1.1" 200 -
+2025-03-11 00:16:31,526 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/?code=eval('alert("Hacked")')
+2025-03-11 00:16:31,527 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: Eval Function Usage Attempt, Parameter: code=eval('alert("Hacked")')
+2025-03-11 00:16:31,527 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:16:31,529 INFO: 192.168.0.148 - - [11/Mar/2025 00:16:31] "GET /?code=eval('alert("Hacked")') HTTP/1.1" 200 -
+2025-03-11 00:17:34,714 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/?query=drop%20table%20users
+2025-03-11 00:17:34,715 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: SQL Drop Table Attempt, Parameter: query=drop table users
+2025-03-11 00:17:34,715 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:17:34,718 INFO: 192.168.0.148 - - [11/Mar/2025 00:17:34] "GET /?query=drop%20table%20users HTTP/1.1" 200 -
+2025-03-11 00:18:20,856 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/?user=admin';--
+2025-03-11 00:18:20,856 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: SQL Comment Attempt, Parameter: user=admin';--
+2025-03-11 00:18:20,857 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 00:18:20,859 INFO: 192.168.0.148 - - [11/Mar/2025 00:18:20] "GET /?user=admin';-- HTTP/1.1" 200 -
+2025-03-11 00:23:40,020 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-11 00:23:40,021 INFO: [33mPress CTRL+C to quit[0m
+2025-03-11 00:23:40,022 INFO:  * Restarting with stat
+2025-03-11 00:23:40,335 WARNING:  * Debugger is active!
+2025-03-11 00:23:40,341 INFO:  * Debugger PIN: 756-002-320
+2025-03-11 00:23:56,016 WARNING: Malicious activity detected from 192.168.0.147 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-11 00:23:56,016 INFO: Connection from 192.168.0.147 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36
+2025-03-11 00:23:56,021 INFO: 192.168.0.147 - - [11/Mar/2025 00:23:56] "GET / HTTP/1.1" 200 -
+2025-03-11 00:23:56,120 WARNING: Malicious activity detected from 192.168.0.147 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/favicon.ico
+2025-03-11 00:23:56,121 INFO: 192.168.0.147 - - [11/Mar/2025 00:23:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-11 19:11:15,642 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-11 19:11:15,643 INFO: [33mPress CTRL+C to quit[0m
+2025-03-11 19:11:15,644 INFO:  * Restarting with stat
+2025-03-11 19:11:15,969 WARNING:  * Debugger is active!
+2025-03-11 19:11:15,976 INFO:  * Debugger PIN: 756-002-320
+2025-03-11 19:11:25,416 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-11 19:11:25,417 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-11 19:11:25,424 INFO: 192.168.0.148 - - [11/Mar/2025 19:11:25] "GET / HTTP/1.1" 200 -
+2025-03-12 21:26:56,993 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 21:26:56,993 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 21:26:56,994 INFO:  * Restarting with stat
+2025-03-12 21:26:57,340 WARNING:  * Debugger is active!
+2025-03-12 21:26:57,349 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 21:28:14,138 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 21:28:14,139 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 21:28:14,141 INFO:  * Restarting with stat
+2025-03-12 21:28:16,915 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 21:28:16,915 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 21:28:16,915 INFO:  * Restarting with stat
+2025-03-12 21:28:17,228 WARNING:  * Debugger is active!
+2025-03-12 21:28:17,236 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 21:28:27,483 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-12 21:28:27,483 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:28:27,489 INFO: 192.168.0.148 - - [12/Mar/2025 21:28:27] "GET / HTTP/1.1" 200 -
+2025-03-12 21:29:01,738 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, URL: http://192.168.0.148:5001/?q=<script>alert('XSS')</script>
+2025-03-12 21:29:01,739 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, Parameter: q=<script>alert('XSS')</script>
+2025-03-12 21:29:01,739 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:29:01,743 INFO: 192.168.0.148 - - [12/Mar/2025 21:29:01] "GET /?q=<script>alert('XSS')</script> HTTP/1.1" 200 -
+2025-03-12 21:30:27,372 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 21:30:27,373 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 21:30:27,373 INFO:  * Restarting with stat
+2025-03-12 21:30:27,702 WARNING:  * Debugger is active!
+2025-03-12 21:30:27,709 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 21:30:35,591 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-12 21:30:35,592 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:30:35,596 INFO: 192.168.0.148 - - [12/Mar/2025 21:30:35] "GET / HTTP/1.1" 200 -
+2025-03-12 21:30:49,406 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, URL: http://192.168.0.148:5001/?q=<script>alert('XSS')</script>
+2025-03-12 21:30:49,406 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, Parameter: q=<script>alert('XSS')</script>
+2025-03-12 21:30:49,407 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:30:49,409 INFO: 192.168.0.148 - - [12/Mar/2025 21:30:49] "GET /?q=<script>alert('XSS')</script> HTTP/1.1" 200 -
+2025-03-12 21:40:58,153 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 21:40:58,153 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 21:40:58,154 INFO:  * Restarting with stat
+2025-03-12 21:40:58,479 WARNING:  * Debugger is active!
+2025-03-12 21:40:58,486 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 21:41:04,402 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-12 21:41:04,402 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:41:04,406 INFO: 192.168.0.148 - - [12/Mar/2025 21:41:04] "GET / HTTP/1.1" 200 -
+2025-03-12 21:41:20,718 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, URL: http://192.168.0.148:5001/?q=<script>alert('XSS')</script>
+2025-03-12 21:41:20,719 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, Parameter: q=<script>alert('XSS')</script>
+2025-03-12 21:41:20,719 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:41:20,723 INFO: 192.168.0.148 - - [12/Mar/2025 21:41:20] "GET /?q=<script>alert('XSS')</script> HTTP/1.1" 200 -
+2025-03-12 21:51:06,440 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 21:51:06,441 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 21:51:06,442 INFO:  * Restarting with stat
+2025-03-12 21:51:06,797 WARNING:  * Debugger is active!
+2025-03-12 21:51:06,803 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 21:51:10,894 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-12 21:51:10,894 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:51:10,898 INFO: 192.168.0.148 - - [12/Mar/2025 21:51:10] "GET / HTTP/1.1" 200 -
+2025-03-12 21:51:32,291 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, URL: http://192.168.0.148:5001/?q=<script>alert('XSS')</script>
+2025-03-12 21:51:32,292 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: XSS Attempt, Parameter: q=<script>alert('XSS')</script>
+2025-03-12 21:51:32,292 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 21:51:32,296 INFO: 192.168.0.148 - - [12/Mar/2025 21:51:32] "GET /?q=<script>alert('XSS')</script> HTTP/1.1" 200 -
+2025-03-12 22:17:46,450 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 22:17:46,452 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 22:17:46,453 INFO:  * Restarting with stat
+2025-03-12 22:17:46,781 WARNING:  * Debugger is active!
+2025-03-12 22:17:46,788 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 22:17:53,710 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 22:17:53,710 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 22:17:53,711 INFO:  * Restarting with stat
+2025-03-12 22:17:54,032 WARNING:  * Debugger is active!
+2025-03-12 22:17:54,037 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 22:18:01,179 WARNING: Malicious activity detected from 127.0.0.1 - Attack Type: External URL Injection Attempt, URL: http://127.0.0.1:5001/
+2025-03-12 22:18:04,636 INFO: Email alert sent successfully.
+2025-03-12 22:18:04,636 INFO: Connection from 127.0.0.1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 22:18:04,648 INFO: 127.0.0.1 - - [12/Mar/2025 22:18:04] "GET / HTTP/1.1" 200 -
+2025-03-12 22:21:16,285 WARNING: Malicious activity detected from 192.168.0.148 - Attack Type: External URL Injection Attempt, URL: http://192.168.0.148:5001/
+2025-03-12 22:21:22,216 INFO: Email alert sent successfully.
+2025-03-12 22:21:22,216 INFO: Connection from 192.168.0.148 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+2025-03-12 22:21:22,225 INFO: 192.168.0.148 - - [12/Mar/2025 22:21:22] "GET / HTTP/1.1" 200 -
+2025-03-12 23:05:49,906 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 23:05:49,907 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 23:05:49,908 INFO:  * Restarting with stat
+2025-03-12 23:05:50,002 WARNING:  * Debugger is active!
+2025-03-12 23:05:50,010 INFO:  * Debugger PIN: 756-002-320
+2025-03-12 23:06:10,436 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.148:5001
+2025-03-12 23:06:10,437 INFO: [33mPress CTRL+C to quit[0m
+2025-03-12 23:06:10,437 INFO:  * Restarting with stat
+2025-03-12 23:06:10,533 WARNING:  * Debugger is active!
+2025-03-12 23:06:10,541 INFO:  * Debugger PIN: 756-002-320
+2025-03-13 19:57:14,497 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.148:5002
+2025-03-13 19:57:14,499 INFO: [33mPress CTRL+C to quit[0m
+2025-03-13 19:57:14,499 INFO:  * Restarting with stat
+2025-03-13 19:57:14,824 WARNING:  * Debugger is active!
+2025-03-13 19:57:14,831 INFO:  * Debugger PIN: 756-002-320
